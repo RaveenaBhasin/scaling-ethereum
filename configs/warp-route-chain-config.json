@@ -1,0 +1,42 @@
+{
+  "goerli": {
+    "chainId": 5,
+    "name": "goerli",
+    "displayName": "Goerli",
+    "nativeToken": { "name": "Ether", "symbol": "ETH", "decimals": 18 },
+    "publicRpcUrls": [{ "http": "https://rpc.ankr.com/eth_goerli" }],
+    "blockExplorers": [
+      {
+        "name": "Goerliscan",
+        "url": "https://goerli.etherscan.io",
+        "apiUrl": "https://api-goerli.etherscan.io",
+        "family": "etherscan"
+      }
+    ],
+    "blocks": {
+      "confirmations": 1,
+      "reorgPeriod": 2,
+      "estimateBlockTime": 13
+    }
+  }, 
+  "mumbai" : {
+    "chainId": 80001,
+    "name": "mumbai",
+    "displayName": "Mumbai",
+    "nativeToken": { "name": "Matic", "symbol": "MATIC", "decimals": 18 },
+    "publicRpcUrls": [{ "http": "https://rpc-mumbai.maticvigil.com" }],
+    "blockExplorers": [
+      {
+        "name": "MaticScan",
+        "url": "https://mumbai.polygonscan.com",
+        "apiUrl": "https://api-mumbai.polygonscan.com",
+        "family": "polygonscan"
+      }
+    ], 
+    "blocks": {
+      "confirmations": 1,
+      "reorgPeriod": 2,
+      "estimateBlockTime": 13
+    }
+  }
+}
